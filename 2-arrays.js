@@ -41,8 +41,8 @@ function sortedUnion(arr1, arr2) {
 
 function sortNumber(a,b){
 return a - b;
-return [...new Set([...arr1,...arr2])].sort(sortNumber);git 
 }
+return [...new Set([...arr1,...arr2])].sort(sortNumber);}
 
 
 // Assertions (do not change)

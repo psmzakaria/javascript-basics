@@ -37,11 +37,12 @@ assertEquals(add2Numbers(100, 1), 101);
 
   var invertCase = function (someString){
     var s = '';
-    for (var i=0; i<str.length; i++) {
+    for (var i=0; i<someString.length; i++) {
         var n = str.charAt(i);
         s +=  (n.toLowerCase()=='a' ? '#' : n == n.toUpperCase() ? n.toLowerCase() : n.toUpperCase());
     }
-    return s;}
+    return s;
+}
 
 
 

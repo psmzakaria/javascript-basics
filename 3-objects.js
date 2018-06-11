@@ -21,6 +21,8 @@ var books = [
 /* 1. Define a function listTitles(booksArray) that takes in an array of book objects
        and returns an array of titles (strings) */
 function listTitles(booksArray) {
+arrTitle=booksArray.map(obj=>obj.title)
+return arrtitle;
 
 }
 
@@ -30,7 +32,12 @@ assertEquals(listTitles(books), ['The Road Ahead', 'Lord of the Rings', 'Harry P
 /* 2. Define a function listAuthors(booksArray) that takes in an array of book objects
        and returns an array of authors (strings) */
 
-function listAuthors(booksArray) {
+function listAuthors(booksArray) {function listTitles(booksArray) {
+  arrAuthor=booksArray.map(obj=>obj.author)
+  return arrAuthor;
+  
+  }
+  
 
 }
 
