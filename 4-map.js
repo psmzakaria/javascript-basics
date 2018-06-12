@@ -61,7 +61,6 @@ return element.replace(/[^aeiou]/gi, '');
 
 })
 
-
 }
 
 // Assertions (do not change)

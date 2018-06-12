@@ -58,6 +58,12 @@ assertEquals(listValues(books, 'title'), ['The Road Ahead', 'Lord of the Rings',
 // 4. Define a function getAvailableBooks(booksArray) that returns a list of available books
 
 function getAvailableBooks(booksArray) {
+return booksarray.filter(function(object){
+
+const avail =object.isAvailable;
+if(avail = true)
+return avail;
+})
 
 }
 
